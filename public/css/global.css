@@ -1,0 +1,290 @@
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #182C61;
+}
+
+.header{
+    background-color: #16a085;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.header #time{
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1px;
+}
+
+.footer{
+    height: 80px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16a085;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.footer p{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navlinks{
+    display: inline;
+    flex-direction: row;
+    background-color: red;
+    border: 5px solid green;
+}
+
+#createbtn {
+    width: 200px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+.pull-right{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#editbtn,
+#backbtn{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pull-left{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pull-left h2{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#title{
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+#description{
+    margin-top: 120px;
+    font-size: 27px;
+}
+
+.form-group strong{
+    color: #e67e22;
+    border: 2px solid #16a085;
+    padding: 5px;
+    text-shadow: 0 0 2px #000000;
+    border-radius: 10px;
+}
+
+.form-group strong:hover{
+    background-color: #16a085;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input,
+.form-group textarea{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form-group{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.table{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 4px solid white;
+    text-shadow: 2px 2px 5px #000000;
+    box-shadow: 10px 10px 8px #16a085;
+}
+
+.btn-outline-info{
+    margin-left: 25px;
+}
+
+form a{
+    text-shadow: none;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+form a:hover,
+.btn-outline-danger:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.btn-floating{
+    margin-top: 15px;
+}
+
+.btn-floating i{
+    font-size: 30px;
+    background-color: white;
+    color: #ffa502;
+}
+
+.btn-floating i:hover{
+    background-color: #ffa502;
+    color: white;
+    
+}
+
+.btn-floating:hover{
+    transform: scale(1.1);
+}
+
+
+
+.alert{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* WELCOME PAGE */
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 100px;
+}
+
+.welcome .welctime{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 2px;
+    color: #e74c3c;
+}
+
+
+.welcome span{
+    color: #e74c3c;
+}
+
+.welcome h1{
+    color: #fff;
+    margin-bottom: 100px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+}
+
+.welcome a{
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #16a085;
+    border-radius: 20px;
+    padding: 15px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.welcome a:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* Media screen queries */
+
+@media only screen and (max-width: 550px) {
+
+    .welcome h1{
+        font-size: 25px;
+    }
+
+    .welcome a{
+        width: 200px;
+        height: 40px;
+        font-size: 22px;
+    }
+
+    #showname,
+    #showquote{
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .header h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+
+    .table{
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+
+    .actionlinks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .actionlinks a{
+        margin-bottom: 10px;
+        width: 40px;
+    }
+
+    .actionlinks .btn-outline-primary{
+        margin-left: 27px;
+    }
+
+    .actionlinks button{
+        width: 40px;
+        margin-left: 27px;
+    }
+
+    #createbtn,
+    #editbtn{
+        margin-bottom: 20px;
+    }
+
+    .pull-left h2{
+        font-size: 22px;
+    }
+}
+
+
