@@ -46,7 +46,7 @@
     </div>
 
     <footer class="footer">
-        <p class="animate__animated animate__heartBeat">Copyright &copy; 2020 by Dimitris Georgiadis.</p>
+        <p class="animate__animated animate__heartBeat">Copyright &copy; 2021 by Dimitris Georgiadis.</p>
     </footer>
 
     <script src="{{ asset('js/time.js') }}"></script>
